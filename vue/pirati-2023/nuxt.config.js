@@ -45,7 +45,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://google-analytics.nuxtjs.org/setup/
-    '@nuxtjs/google-analytics'
+    // '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -59,7 +59,7 @@ export default {
     // https://www.npmjs.com/package/cookie-universal-nuxt?activeTab=readme
     'cookie-universal-nuxt',
     // https://github.com/pimlie/nuxt-matomo
-    ['nuxt-matomo', { matomoUrl: '//piwik.kohovolit.eu/', siteId: 1 }],
+    // ['nuxt-matomo', { matomoUrl: '//piwik.kohovolit.eu/', siteId: 1 }],
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -96,7 +96,7 @@ export default {
     }
   },
   // https://google-analytics.nuxtjs.org/setup/
-  googleAnalytics: {
-    id: 'UA-8592359-7'
-  }
+  // googleAnalytics: {
+  //   id: 'UA-8592359-7'
+  // }
 }
