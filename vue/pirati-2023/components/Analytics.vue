@@ -2,7 +2,7 @@
 <!-- <div class="no-height">
   <iframe src="https://a.volebnikalkulacka.cz/session/" width="0" height="0" frameborder="0"></iframe>
   <noscript><div><img src="https://mc.yandex.ru/watch/35615280" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
-  <!-- <noscript><p><img src="//piwik.kohovolit.eu/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript> -->
+  <noscript><p><img src="//matomo.kohovolit.eu/matomo.php?idsite=3&rec=1" style="border:0;" alt="" /></p></noscript>
 <!-- </div> -->
 </template>
 <script>
@@ -24,25 +24,19 @@
 //   ga('send', 'pageview');
 // }
 
-// if (process.browser) {
-//   var _paq = _paq || [];
-//   // tracker methods like "setCustomDimension" should be called before "trackPageView"
-//   _paq.push(['trackPageView']);
-//   _paq.push(['enableLinkTracking']);
-//   (function() {
-//     var u = "//piwik.kohovolit.eu/";
-//     _paq.push(['setTrackerUrl', u + 'piwik.php']);
-//     _paq.push(['setSiteId', '1']);
-//     var d = document,
-//       g = d.createElement('script'),
-//       s = d.getElementsByTagName('script')[0];
-//     g.type = 'text/javascript';
-//     g.async = true;
-//     g.defer = true;
-//     g.src = u + 'piwik.js';
-//     s.parentNode.insertBefore(g, s);
-//   })();
-// }
+if (process.browser) {
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//matomo.kohovolit.eu/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '3']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+}
 
 
 

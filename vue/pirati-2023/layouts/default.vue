@@ -7,7 +7,7 @@
     </div>
     <div id="off-screen">
       <Footer />
-      <!-- <Analytics /> -->
+      <Analytics />
     </div>
   </div>
 </template>
