@@ -21,10 +21,10 @@
     <ResultsTable :results="results" />
     <hr/>
     <div class="container p-4 m-4">
-      <em>Tip: kliknutím na jméno přejdete na podrobné srovnání a komentáře kandidátů k otázkám</em>
+      <em>💡 Tip: kliknutím na jméno přejdete na podrobné srovnání a komentáře kandidátů k otázkám</em>
     </div>
-    <!-- <hr/>
-      <a class="btn btn-info" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEeatMK1UN_7JZiOSF7DeHxiEns-y1FDaGp28OUGe0hCcQDepfxzK2xouO20dfIIz6Sutyx0MidWM9/pubhtml" target="_blank">Tabulka všech otázek a odpovědí</a> -->
+    <hr/>
+      <a class="btn btn-info" href="https://docs.google.com/spreadsheets/d/1ryWULNpoWCL5IXUjKPom1aqo60_VpAbuzq-01wr1wSI/edit#gid=0" target="_blank">📋 Tabulka všech otázek a odpovědí</a>
     <hr/>
     <div class="container p-2 ">
       <button type="button" class="btn" :class="{'disabled btn-secondary': !isChanged, 'btn-primary': isChanged}" @click="store()">{{ saveResultText }}</button>
