@@ -22,8 +22,6 @@
     <hr/>
     <div class="container p-4 m-4">
       <em>Tip: kliknutím na jméno přejdete na podrobné srovnání a komentáře kandidátů k otázkám</em>
-      <br/>
-      <em>🟡 ~ kandiduje na lídra/lídryni</em>
     </div>
     <!-- <hr/>
       <a class="btn btn-info" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEeatMK1UN_7JZiOSF7DeHxiEns-y1FDaGp28OUGe0hCcQDepfxzK2xouO20dfIIz6Sutyx0MidWM9/pubhtml" target="_blank">Tabulka všech otázek a odpovědí</a> -->

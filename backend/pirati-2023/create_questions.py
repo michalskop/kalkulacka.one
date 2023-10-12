@@ -64,10 +64,10 @@ for row in data[1:]:
     'comments': {},
   }
   for j in range(1, 33):
-    # if j not in exclude:
-    it['votes'][j] = a2a[row['q' + str(j)]]
-    if row['d' + str(j)] != '':
-      it['comments'][j] = row['d' + str(j)].strip()
+    if j not in exclude:
+      it['votes'][j] = a2a[row['q' + str(j)]]
+      if row['d' + str(j)] != '':
+        it['comments'][j] = row['d' + str(j)].strip()
   
   answers.append(it)
 

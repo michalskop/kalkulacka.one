@@ -1,0 +1,2 @@
+# creating a 80x80 thumbnail from the original image:
+mogrify -path result -format webp -resize 80x80^ -gravity center -extent 80x80 original3/*.jpg
